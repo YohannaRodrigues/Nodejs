@@ -1,4 +1,4 @@
-// --nome=Matheus --idade=30
+// --nome=Oliver --idade=7meses
 const minimist = require("minimist");
 
 const args = minimist(process.argv.slice(2));
