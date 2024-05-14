@@ -9,3 +9,5 @@ fs.writeFile("arquivo.txt", "Oi", function (err) {
 });
 
 console.log("Fim");
+
+//assincrono não espera a função ser executada para terminar de rodar o codigo

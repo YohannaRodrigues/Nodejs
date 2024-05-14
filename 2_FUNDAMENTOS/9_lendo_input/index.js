@@ -4,6 +4,11 @@ const readline = require("readline").createInterface({
 });
 
 readline.question(`Qual a sua linguagem preferida? `, (language) => {
-  console.log(`A minha linguagem preferida é: ${language}`);
+  if (language === "Node.js") {
+    console.log(`É a minha linguagem preferida tambem s2`);
+  } else {
+    console.log(`A sua linguagem preferida é: ${language}`);
+  }
+
   readline.close();
 });
